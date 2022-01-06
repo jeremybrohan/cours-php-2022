@@ -33,25 +33,50 @@ echo '</br>';
 echo $phrase;
 
 //Opérateur condensé de concaténation .=
-$phrase = $mot;//initialisation de ma phrases avec un premier mot
-$phrase = $phrase. ' M. ';// "colle" un mot
-$phrase = $phrase . $prenomDuProfesseur;// "colle" un mot
+$phrase = $mot; //initialisation de ma phrases avec un premier mot
+$phrase = $phrase . ' M. '; // "colle" un mot
+$phrase = $phrase . $prenomDuProfesseur; // "colle" un mot
 
 echo '</br>';
-echo $phrase;   
+echo $phrase;
 
 
 
 //Opérateur condensé de concaténation .=
-$phrase = $mot;//initialisation qui ne change pas, "="
-$phrase .= ' M. ';// " .="
-$phrase .= $prenomDuProfesseur;// "colle" un mot
-echo '</br>';// saut de ligne HTML
-echo $phrase;   
+$phrase = $mot; //initialisation qui ne change pas, "="
+$phrase .= ' M. '; // " .="
+$phrase .= $prenomDuProfesseur; // "colle" un mot
+echo '</br>'; // saut de ligne HTML
+echo $phrase;
 
-$phrase= ''; //initialisation avec une chaine vide
-$phrase .= $mot;// ".="
-$phrase .= ' M. ';// " .="
-$phrase .= $prenomDuProfesseur;// "colle" un mot
-echo '</br>';// saut de ligne HTML
-echo $phrase;   
+$phrase = ''; //initialisation avec une chaine vide
+$phrase .= $mot; // ".="
+$phrase .= ' M. '; // " .="
+$phrase .= $prenomDuProfesseur; // "colle" un mot
+echo '</br>'; // saut de ligne HTML
+echo $phrase;
+// les variables numériques
+$nombreEntier = 3;
+$nombreDecimal = 3.14;
+
+//Calculs
+//Addition :+
+//Soustraction : -
+//Produit : *
+//Division : /
+
+//Opérateurs condensés
+// +=
+//-=
+//*=
+///=
+
+//Oprérateurs d'incrémentations
+//++
+//--
+
+//Les constantes 
+define('TAUX_TVA', 10);
+$prixHT = 50;
+$prixTTC = 50 * (10 * 50 / 100);
+$prixTTC = $nombreEntier * (TAUX_TVA * $prixHT / 100);
