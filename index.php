@@ -9,4 +9,4 @@ echo 'Hello World';
 // echo me permet d'ecrire le document HTML qui sera afficher par la navigateur
 
 //'Hello World ' est une chaine de caracteres 
-//en PHP, les ligne finnise par ;
+//en PHP, les lignes finniset par ";"
